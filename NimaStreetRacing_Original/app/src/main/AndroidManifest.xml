@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.nima.streetracing">
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:label="Nima Street Racing" android:theme="@android:style/Theme.Black.NoTitleBar" android:debuggable="false">
+        <activity android:name=".MainActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+    </application>
+</manifest>

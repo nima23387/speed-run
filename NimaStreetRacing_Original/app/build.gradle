@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.nima.streetracing'
+    compileSdk 28
+    defaultConfig {
+        applicationId 'com.nima.streetracing'
+        minSdk 10
+        targetSdk 10
+        versionCode 1
+        versionName '0.1.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_7
+        targetCompatibility JavaVersion.VERSION_7
+    }
+}
